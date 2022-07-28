@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.2] 2022-07-29
+### Improvements
+
+- Improve the `dark-mode` effect over elements
+
 ## [1.0.1] 2022-07-28
 ### Improvements
 
