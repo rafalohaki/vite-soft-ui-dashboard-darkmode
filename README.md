@@ -13,7 +13,7 @@ Vite Soft UI Dashboard is built with over 70 frontend individual elements, like 
 
 <br />
 
-## How to use it
+## ✨ How to use it
 
 Once the sources are downloaded, make sure you have a decent NodeJS version. To compile & start the project, navigate in the root of the project and type: 
 
