@@ -1,7 +1,15 @@
-body.dark-theme {
-  background-color: #000 !important;
+body.dark-theme,
+body.dark-theme aside {
+  background-color: #1f2021 !important;
 }
 
-body.dark-theme a, body.dark-theme .card {
-  filter: invert(1);
+body.dark-theme .card,
+body.dark-theme .card-header,
+body.dark-theme .input-group-text,
+body.dark-theme input,
+body.dark-theme .icon,
+body.dark-theme .active,
+body.dark-theme .blur,
+body.dark-theme .list-group-item {
+  background-color: #121212 !important;
 }
