@@ -1,4 +1,4 @@
-# [Vite Soft UI Dashboard](https://www.creative-tim.com/product/vite-soft-ui-dashboard?AFFILIATE=128200) 
+# [Vite Soft UI Dashboard](https://www.creative-tim.com/product/vite-soft-ui-dashboard?AFFILIATE=128200) `Dark-Mode`
 
 Start your Development with an Innovative Admin Template for Bootstrap 5, VueJS 3, Vite and Vuex. If you like the look & feel of the hottest design trend right now, Soft UI, you will fall in love with this dashboard! It features a huge number of components built to fit together and look amazing.
 
