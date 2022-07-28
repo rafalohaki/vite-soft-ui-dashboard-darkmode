@@ -1,10 +1,39 @@
-# [Vite Soft UI Dashboard](http://demos.creative-tim.com/vite-soft-ui-dashboard/?ref=readme-vitesud) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/vue-soft-ui-dashboard&text=Check%20Vite%20Soft%20UI%20Dashboard%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#vue%20https://www.creative-tim.com/product/vite-soft-ui-dashboard)
-
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vue-soft-ui-dashboard.svg)](https://github.com/creativetimofficial/vite-soft-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vite-soft-ui-dashboard.svg)](https://github.com/creativetimofficial/vite-soft-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
-
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/635/original/vite-soft-ui-dashboard.jpg)
+# [Vite Soft UI Dashboard](https://www.creative-tim.com/product/vite-soft-ui-dashboard?AFFILIATE=128200) 
 
 Start your Development with an Innovative Admin Template for Bootstrap 5, VueJS 3, Vite and Vuex. If you like the look & feel of the hottest design trend right now, Soft UI, you will fall in love with this dashboard! It features a huge number of components built to fit together and look amazing.
+
+> This project comes with a `dark-mode` enhancement - Provided by [Admin Dashboards](https://www.admin-dashboards.com/) service.  
+
+- 👉 [Vite Soft UI Dashboard](https://www.creative-tim.com/product/vite-soft-ui-dashboard?AFFILIATE=128200) - `product page` 
+- 👉 [Vite Soft UI Dashboard](https://demos.creative-tim.com/vite-soft-ui-dashboard/#/dashboard?AFFILIATE=128200) - `LIVE demo` 
+
+Vite Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. 
+
+![Vite Soft UI Dashboard - FREE VUEJS 3 ADMIN TEMPLATE, crafted by Creative-Tim.](https://s3.amazonaws.com/creativetim_bucket/products/635/original/vite-soft-ui-dashboard.jpg)
+
+<br />
+
+## ✨ How to use it
+
+Once the sources are downloaded, make sure you have a decent NodeJS version. To compile & start the project, navigate in the root of the project and type.
+
+```bash
+$ npm i 
+$ npm run dev
+$ 
+// OR via Yarn
+$ yarn
+$ yarn dev
+```
+
+Once the above commands are executed, the app should run in the browser `localhost:8080`. The Dark-MOde switcher is positioned in the sidebar. 
+`Dark mode` is implemented by adding the `dark-theme` class to the body element. The current design mode is stored in the browser's local storage.
+
+> Customization: Update styles saved in the `/src/assets/css/dark-mode.css` file
+
+![Vite Soft UI Dashboard - dark-Mode enhancement.](https://user-images.githubusercontent.com/51070104/181595514-3cf00ab4-0297-4563-84b7-27c795e3ae23.gif) 
+
+<br />
 
 **Fully Coded Components**
 
