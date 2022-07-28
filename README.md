@@ -15,7 +15,7 @@ Vite Soft UI Dashboard is built with over 70 frontend individual elements, like 
 
 ## ✨ How to use it
 
-Once the sources are downloaded, make sure you have a decent NodeJS version. To compile & start the project, navigate in the root of the project and type: 
+Once the sources are downloaded, make sure you have a decent NodeJS version. To compile & start the project, navigate in the root of the project and type.
 
 ```bash
 $ npm i 
@@ -26,7 +26,10 @@ $ yarn
 $ yarn dev
 ```
 
-Once the above commands are executed, the app should run in the browser `localhost:8080`. The Dark-MOde switcher is positioned in the sidebar: 
+Once the above commands are executed, the app should run in the browser `localhost:8080`. The Dark-MOde switcher is positioned in the sidebar. 
+`Dark mode` is implemented by adding the `dark-theme` class to the body element. The current design mode is stored in the browser's local storage.
+
+> Customization: Update styles saved in the `/src/assets/css/dark-mode.css` file
 
 ![Vite Soft UI Dashboard - dark-Mode enhancement.](https://user-images.githubusercontent.com/51070104/181595514-3cf00ab4-0297-4563-84b7-27c795e3ae23.gif) 
 
