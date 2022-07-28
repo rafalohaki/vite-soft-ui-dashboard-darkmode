@@ -27,7 +27,10 @@
       </li>
 
       <li class="nav-item">
-        <sidenav-collapse nav-text="Virtual Reality" :to="{ name: 'Virtual Reality' }">
+        <sidenav-collapse
+          nav-text="Virtual Reality"
+          :to="{ name: 'Virtual Reality' }"
+        >
           <template #icon>
             <icon name="virtual-reality" />
           </template>
@@ -44,7 +47,9 @@
         <h6
           class="text-xs ps-4 text-uppercase font-weight-bolder opacity-6"
           :class="$store.state.isRTL ? 'me-4' : 'ms-2'"
-        >PAGES</h6>
+        >
+          PAGES
+        </h6>
       </li>
       <li class="nav-item">
         <sidenav-collapse nav-text="Profile" :to="{ name: 'Profile' }">
@@ -67,6 +72,17 @@
           </template>
         </sidenav-collapse>
       </li>
+      <li class="nav-item">
+        <vsud-switch
+          id="flexSwitchCheckDefault"
+          class="ps-4 ms-2 mt-4"
+          label-class="mb-0 text-body ms-3 text-truncate"
+          input-class="ms-auto"
+          :checked="darkTheme"
+          @change="changeTheme"
+          >Dark mode</vsud-switch
+        >
+      </li>
     </ul>
   </div>
   <div class="pt-3 mx-3 mt-3 sidenav-footer">
@@ -82,13 +98,15 @@
       class="btn bg-gradient-success mt-4 w-100"
       href="https://www.creative-tim.com/product/vue-soft-ui-dashboard-pro?ref=vsud"
       type="button"
-    >Upgrade to pro</a>
+      >Upgrade to pro</a
+    >
   </div>
 </template>
 <script>
 import Icon from "@/components/Icon.vue";
 import SidenavCollapse from "./SidenavCollapse.vue";
 import SidenavCard from "./SidenavCard.vue";
+import VsudSwitch from "@/components/VsudSwitch.vue";
 
 export default {
   name: "SidenavList",
@@ -96,11 +114,12 @@ export default {
     Icon,
     SidenavCollapse,
     SidenavCard,
+    VsudSwitch,
   },
   props: {
     cardBg: {
       type: String,
-      default: ""
+      default: "",
     },
   },
   data() {
@@ -108,12 +127,24 @@ export default {
       title: "Vite Soft UI Dashboard",
       controls: "dashboardsExamples",
       isActive: "active",
+      darkTheme: false,
     };
+  },
+  mounted() {
+    if (localStorage.getItem("theme") === "dark") {
+      this.darkTheme = true;
+      document.body.classList.add("dark-theme");
+    }
   },
   methods: {
     getRoute() {
       const routeArr = this.$route.path.split("/");
       return routeArr[1];
+    },
+    changeTheme() {
+      this.darkTheme = !this.darkTheme;
+      localStorage.setItem("theme", this.darkTheme ? "dark" : "light");
+      document.body.classList.toggle("dark-theme");
     },
   },
 };

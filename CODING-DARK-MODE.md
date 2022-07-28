@@ -2,11 +2,8 @@
 
 ## Implementation Summary
 
-@Todo 
-
-<br />
+Dark mode is implemented by adding the "dark-theme" class to the body element. The current design mode is stored in the browser's local storage.
 
 ## How to customize 
 
-How users can update the existing `dark mode` style. 
-
+Add styles to `/src/assets/css/dark-mode.css` file
