@@ -9,7 +9,7 @@ Start your Development with an Innovative Admin Template for Bootstrap 5, VueJS 
 
 Vite Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. 
 
-![Vite Soft UI Dashboard - FREE VUEJS 3 ADMIN TEMPLATE, crafted by Creative-Tim.](https://s3.amazonaws.com/creativetim_bucket/products/635/original/vite-soft-ui-dashboard.jpg)
+![Vite Soft UI Dashboard - FREE VUEJS 3 ADMIN TEMPLATE, crafted by Creative-Tim.](https://user-images.githubusercontent.com/51070104/181642890-e6346c0a-be6c-4602-9b13-a7176ab0089a.png)
 
 <br />
 
@@ -31,7 +31,7 @@ Once the above commands are executed, the app should run in the browser `localho
 
 > Customization: Update styles saved in the `/src/assets/css/dark-mode.css` file
 
-![Vite Soft UI Dashboard - dark-Mode enhancement.](https://user-images.githubusercontent.com/51070104/181595514-3cf00ab4-0297-4563-84b7-27c795e3ae23.gif) 
+![Vite Soft UI Dashboard - dark-Mode enhancement.](https://user-images.githubusercontent.com/51070104/181642968-a6539cb4-81ec-4e1e-b4dc-9e40c3896c6c.gif)
 
 <br />
 
