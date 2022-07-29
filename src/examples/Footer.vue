@@ -8,15 +8,15 @@
             :class="$store.state.isRTL ? 'text-lg-end' : 'text-lg-start'"
           >
             ©
-            {{ new Date().getFullYear() }}, made with
+            {{ new Date().getFullYear() }}, Built with
             <i class="fa fa-heart"></i> by
             <a
-              href="https://www.creative-tim.com"
+              href="https://wpme.pl"
               class="font-weight-bold"
               target="_blank"
-              >Creative Tim</a
+              >WPME</a
             >
-            for a better web.
+          
           </div>
         </div>
         <div class="col-lg-6">
@@ -25,10 +25,10 @@
           >
             <li class="nav-item">
               <a
-                href="https://www.creative-tim.com"
+                href="https://wpme.pl"
                 class="nav-link text-muted"
                 target="_blank"
-                >Creative Tim</a
+                >CreativeTim</a
               >
             </li>
             <li class="nav-item">
